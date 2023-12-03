@@ -1,0 +1,142 @@
+/* .main{ */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* background-color: navajowhite; */
+/* } */
+body{
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRl_m-BHXUPzgOTVMAlEj3NSyX8A9fv6bQeQ&usqp=CAU'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 1100px 1100px; */
+    background-color:aqua;
+}
+
+.main{
+    background-color:rgb(211, 222, 222);
+    padding: 20px;
+    margin: 90px;
+    border-radius: 20px;
+    border: 10px solid black;
+    padding-left: 180px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+
+.main:hover{
+    background-color:rgb(221, 186, 226);
+}
+
+.main button{
+    background-color: rgb(31, 179, 216);
+    color: azure;
+    font-size:larger ;
+    font-family: sans-serif;
+    border-radius: 14px;
+    border-color: rgb(106, 196, 219);
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+    padding-left: -10%;
+   
+ 
+}
+
+
+ 
+ 
+ 
+
+
+@keyframes example {
+    0%   {background-color:red; color: black; left:0px; top:0px;}
+    25%  {background-color:yellow; color: white; left:200px; top:0px;}
+    50%  {background-color:blue; color: hotpink; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red;color: burlywood; left:0px; top:0px;}
+}
+
+.main button:hover{
+    background-color: deeppink;
+    color: black;
+}
+
+.main input{
+    background-color: beige;
+    color:rgba(0, 0, 0, 0.622);
+}
+
+.main .name{
+   /* margin-top: 80px; */
+   /* margin-left: 90px; */
+   /* margin-right: 150px; */
+
+    display: flex;
+ align-items: center;
+ justify-content: center;
+
+
+
+}
+
+.main .temperature{
+    /* margin-top: 130px; */
+ /* margin-left: 0; */
+    /* margin-right: 250px; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .subTemperatures .min-temp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .subTemperatures .max-temp {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.main .windSpeed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.gill{
+    background-color: rgb(160, 222, 228);
+    padding: 1px;
+    border-radius: 10px;
+    animation: example 5s infinite;
+}
+
+
+
+
+
+
+
+
+
+
